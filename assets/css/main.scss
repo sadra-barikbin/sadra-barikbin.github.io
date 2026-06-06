@@ -1,0 +1,231 @@
+---
+# Editorial / literary customisation of the Minimal Mistakes theme.
+# The empty front matter is required so Jekyll processes this file.
+---
+
+@charset "utf-8";
+
+// ==========================================================================
+//  1. Variable overrides — must come BEFORE the theme imports so they win.
+// ==========================================================================
+
+// --- Typography -----------------------------------------------------------
+$serif: "Spectral", "Iowan Old Style", "Palatino Linotype", Georgia, "Times New Roman", serif;
+$serif-display: "Playfair Display", #{$serif};
+$sans-serif: #{$serif};               // keep the whole UI in serif for a literary feel
+$global-font-family: #{$serif};
+$header-font-family: #{$serif-display};
+
+// --- Warm, muted palette --------------------------------------------------
+$paper:            #faf8f3;
+$ink:              #211c16;
+$clay:             #9c5b3f;
+$teal:             #2c4a52;
+
+$background-color:        $paper;
+$text-color:             $ink;
+$muted-text-color:       #6e6356;
+$primary-color:          $clay;
+$border-color:           #e7ded0;
+$footer-background-color: #f1ebdf;
+$link-color:             $clay;
+$masthead-link-color:        $ink;
+$masthead-link-color-hover:  $clay;
+$navicon-link-color-hover:   #efe9dd;
+$code-background-color:      #f1ebdf;
+
+// ==========================================================================
+//  2. Theme imports
+// ==========================================================================
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+// ==========================================================================
+//  3. Editorial refinements (applied after the theme)
+// ==========================================================================
+
+// --- Reading column: generous leading, comfortable measure ----------------
+.page__content {
+  font-size: 1.05em;
+  line-height: 1.85;
+
+  // Constrain running text to a readable measure, but let figures/galleries
+  // span the full width of the page.
+  > p,
+  > ul,
+  > ol,
+  > h1, > h2, > h3, > h4,
+  > blockquote,
+  > hr,
+  > .poem,
+  > .poem-note,
+  > .contact-note {
+    max-width: 44rem;
+  }
+
+  p { margin-bottom: 1.3em; }
+
+  a {
+    text-decoration: none;
+    border-bottom: 1px solid rgba($clay, 0.4);
+    transition: border-color 0.15s ease, color 0.15s ease;
+    &:hover { border-bottom-color: $clay; }
+  }
+}
+
+// --- Headings -------------------------------------------------------------
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font-family;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.page__title {
+  font-family: $header-font-family;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+}
+
+// --- Masthead -------------------------------------------------------------
+.masthead {
+  border-bottom: 1px solid $border-color;
+  .site-title {
+    font-family: $header-font-family;
+    font-weight: 700;
+    font-size: 1.5em;
+    letter-spacing: 0.01em;
+  }
+  .greedy-nav a {
+    font-size: 0.95em;
+    letter-spacing: 0.02em;
+  }
+}
+
+// --- Blockquotes (pull-quotes / epigraphs) --------------------------------
+blockquote {
+  font-family: $serif-display;
+  font-style: italic;
+  font-size: 1.25em;
+  line-height: 1.5;
+  color: $teal;
+  border-left-width: 3px;
+  border-left-color: $clay;
+}
+
+// --- An ornamental rule in place of a plain <hr class="ornament"> ----------
+hr.ornament {
+  border: 0;
+  height: auto;
+  margin: 3em 0;
+  overflow: visible;
+  text-align: center;
+}
+hr.ornament::after {
+  content: "\2767";          // ❧ floral heart
+  color: $clay;
+  font-size: 1.4rem;
+  letter-spacing: 0.5em;
+  padding-left: 0.5em;       // balance the trailing letter-spacing
+}
+
+// --- Verse / poems --------------------------------------------------------
+.poem {
+  margin: 1.8em 0;
+  padding-left: 1.3em;
+  border-left: 3px solid rgba($clay, 0.45);
+  p {
+    font-size: 1.08em;
+    line-height: 1.9;
+    color: $ink;
+  }
+}
+.poem-note,
+.contact-note {
+  color: $muted-text-color;
+  font-size: 0.95em;
+}
+
+// --- Galleries: a touch of warmth and depth -------------------------------
+.gallery img {
+  border-radius: 2px;
+  box-shadow: 0 1px 0 $border-color, 0 8px 20px rgba($ink, 0.08);
+}
+
+// --- Post / archive lists -------------------------------------------------
+.archive__item-title {
+  font-family: $header-font-family;
+  font-weight: 600;
+  a { border-bottom: 0; }
+}
+.archive__item-teaser {
+  border-radius: 2px;
+  box-shadow: 0 6px 18px rgba($ink, 0.08);
+}
+.page__meta,
+.archive__item-excerpt {
+  color: $muted-text-color;
+}
+
+// ==========================================================================
+//  4. Home page
+// ==========================================================================
+.home-hero {
+  max-width: 44rem;
+  margin: 1.5em 0 0;
+}
+.home-kicker {
+  font-family: $sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.28em;
+  font-size: 0.75em;
+  color: $clay;
+  margin-bottom: 0.6em;
+}
+.home-title {
+  font-family: $header-font-family;
+  font-weight: 700;
+  font-size: 3em;
+  line-height: 1.05;
+  margin: 0 0 0.4em;
+}
+.home-lede {
+  font-size: 1.3em;
+  line-height: 1.6;
+  color: $ink;
+  margin-bottom: 1em;
+}
+.home-hero__links {
+  font-size: 1.05em;
+  a {
+    color: $clay;
+    border-bottom: 1px solid rgba($clay, 0.4);
+    text-decoration: none;
+  }
+}
+.home-dot {
+  color: $clay;
+  padding: 0 0.7em;
+  opacity: 0.7;
+}
+.home-section-title {
+  font-family: $header-font-family;
+  font-size: 1.5em;
+  margin: 0.5em 0 1em;
+}
+.home-more {
+  margin-top: 1.5em;
+  a {
+    font-family: $sans-serif;
+    letter-spacing: 0.04em;
+    color: $clay;
+    text-decoration: none;
+    border-bottom: 1px solid rgba($clay, 0.4);
+  }
+}
+
+// --- Footer ---------------------------------------------------------------
+.page__footer {
+  font-family: $sans-serif;
+  .page__footer-follow .social-icons a { color: $muted-text-color; }
+}

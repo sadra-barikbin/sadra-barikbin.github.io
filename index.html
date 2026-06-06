@@ -1,0 +1,32 @@
+---
+layout: single
+permalink: /
+title: ""
+author_profile: false
+classes: wide
+---
+
+<section class="home-hero">
+  <p class="home-kicker">A personal notebook</p>
+  <h1 class="home-title">Sadra Barikbin</h1>
+  <p class="home-lede">
+    This is the part of me that doesn&rsquo;t fit on a r&eacute;sum&eacute; &mdash;
+    essays, fragments, and pictures gathered from the culture I carry with me.
+    The technical work lives elsewhere; here I keep the rest.
+  </p>
+  <p class="home-hero__links">
+    <a href="/about/">About</a><span class="home-dot">&#10047;</span><a href="/contact/">Get in touch</a>
+  </p>
+</section>
+
+<hr class="ornament" />
+
+<section class="home-pieces">
+  <h2 class="home-section-title">Recent pieces</h2>
+  <div class="entries-list">
+    {% for post in site.posts limit: 6 %}
+      {% include archive-single.html type="list" %}
+    {% endfor %}
+  </div>
+  <p class="home-more"><a href="/pieces/">All pieces &rarr;</a></p>
+</section>

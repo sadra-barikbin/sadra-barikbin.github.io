@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Abstract study in rose and sage">
+  <rect width="1200" height="900" fill="#f6eee9"/>
+  <circle cx="600" cy="450" r="380" fill="#c98a6d" opacity="0.55"/>
+  <circle cx="600" cy="450" r="250" fill="#7d8a6a" opacity="0.6"/>
+  <circle cx="600" cy="450" r="120" fill="#9c5b3f"/>
+  <g stroke="#211c16" stroke-width="3" opacity="0.25">
+    <line x1="100" y1="450" x2="1100" y2="450"/>
+    <line x1="600" y1="60" x2="600" y2="840"/>
+  </g>
+</svg>

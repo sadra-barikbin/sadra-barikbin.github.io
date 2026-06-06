@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="Abstract calligraphic strokes">
+  <rect width="1600" height="1000" fill="#faf8f3"/>
+  <circle cx="800" cy="500" r="320" fill="#2c4a52" opacity="0.10"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M520 760 C 560 420, 700 380, 660 640 S 760 760, 820 460" stroke="#211c16" stroke-width="14" opacity="0.8"/>
+    <path d="M860 720 C 900 460, 1000 420, 980 620 S 1080 700, 1120 420" stroke="#9c5b3f" stroke-width="14" opacity="0.85"/>
+    <path d="M620 300 q 120 -60 240 0" stroke="#b9893f" stroke-width="8" opacity="0.7"/>
+  </g>
+  <circle cx="540" cy="300" r="10" fill="#9c5b3f"/>
+  <circle cx="1140" cy="360" r="10" fill="#2c4a52"/>
+</svg>
