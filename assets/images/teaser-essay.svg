@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="Abstract study suggesting ruled manuscript lines">
+  <rect width="1600" height="1000" fill="#faf8f3"/>
+  <g opacity="0.9">
+    <circle cx="520" cy="430" r="300" fill="#9c5b3f" opacity="0.16"/>
+    <circle cx="1080" cy="560" r="360" fill="#2c4a52" opacity="0.14"/>
+    <circle cx="800" cy="360" r="200" fill="#b9893f" opacity="0.18"/>
+  </g>
+  <g stroke="#211c16" stroke-width="2" opacity="0.22">
+    <line x1="360" y1="700" x2="1240" y2="700"/>
+    <line x1="360" y1="760" x2="1240" y2="760"/>
+    <line x1="360" y1="820" x2="1080" y2="820"/>
+  </g>
+  <line x1="360" y1="660" x2="360" y2="860" stroke="#9c5b3f" stroke-width="4"/>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="Abstract concentric arcs in warm tones">
+  <rect width="1600" height="1000" fill="#faf8f3"/>
+  <g fill="none" stroke-width="40">
+    <path d="M300 1000 A 500 500 0 0 1 1300 1000" stroke="#b9893f" opacity="0.85"/>
+    <path d="M390 1000 A 410 410 0 0 1 1210 1000" stroke="#c98a6d" opacity="0.85"/>
+    <path d="M480 1000 A 320 320 0 0 1 1120 1000" stroke="#9c5b3f" opacity="0.9"/>
+    <path d="M570 1000 A 230 230 0 0 1 1030 1000" stroke="#2c4a52" opacity="0.9"/>
+  </g>
+  <circle cx="800" cy="1000" r="70" fill="#211c16"/>
+</svg>

@@ -1,0 +1,8 @@
+# Top navigation bar
+main:
+  - title: "Pieces"
+    url: /pieces/
+  - title: "About"
+    url: /about/
+  - title: "Contact"
+    url: /contact/

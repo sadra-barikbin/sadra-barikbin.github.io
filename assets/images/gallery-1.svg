@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Abstract study in clay and ochre">
+  <rect width="1200" height="900" fill="#f4ece0"/>
+  <rect x="0" y="0" width="1200" height="430" fill="#b9893f" opacity="0.85"/>
+  <rect x="0" y="430" width="1200" height="180" fill="#9c5b3f" opacity="0.9"/>
+  <circle cx="860" cy="300" r="150" fill="#c98a6d"/>
+  <rect x="120" y="560" width="360" height="220" fill="#2c4a52" opacity="0.35"/>
+  <line x1="0" y1="610" x2="1200" y2="610" stroke="#211c16" stroke-width="3" opacity="0.3"/>
+</svg>

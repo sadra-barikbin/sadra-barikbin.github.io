@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Abstract study in slate and teal">
+  <rect width="1200" height="900" fill="#eef0ee"/>
+  <polygon points="0,0 1200,0 1200,520 0,720" fill="#2c4a52" opacity="0.9"/>
+  <polygon points="0,720 1200,520 1200,900 0,900" fill="#7d8a6a" opacity="0.55"/>
+  <circle cx="320" cy="300" r="120" fill="#b9893f" opacity="0.9"/>
+  <circle cx="320" cy="300" r="60" fill="#faf8f3"/>
+  <line x1="700" y1="120" x2="980" y2="600" stroke="#faf8f3" stroke-width="6" opacity="0.6"/>
+</svg>
