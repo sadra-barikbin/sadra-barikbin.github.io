@@ -2,9 +2,10 @@
 # the Reading page renders straight from this file.
 current:
   title: "The Muslim Discovery of Europe"
+  title_fa: "نخستین مسلمانان در اروپا"
   author: "Bernard Lewis"
   edition: "Persian translation by Mohammad Ghaed"
-  cover: /assets/images/book-cover.svg   # swap in a real cover image if you like
+  cover: /assets/images/cover-muslim-discovery.jpg
   link: "https://mghaed.com/muslim_discovery/"
   note: >-
     Lewis turns the familiar story inside out: not Europe discovering the East,

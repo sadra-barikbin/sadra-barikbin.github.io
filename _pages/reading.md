@@ -23,6 +23,7 @@ classes: wide
   <div class="reading-now__body">
     <p class="reading-now__label">Currently reading</p>
     <h2 class="reading-now__title">{% if book.link and book.link != "" %}<a href="{{ book.link }}">{{ book.title }}</a>{% else %}{{ book.title }}{% endif %}</h2>
+    {% if book.title_fa %}<p class="reading-now__title-fa" lang="fa" dir="rtl">{{ book.title_fa }}</p>{% endif %}
     <p class="reading-now__author">{{ book.author }}{% if book.edition %} <span class="reading-now__edition">&middot; {{ book.edition }}</span>{% endif %}</p>
     {% if book.note %}<p class="reading-now__note">{{ book.note }}</p>{% endif %}
     <p class="reading-now__cta"><a href="/contact/">Read it too? Let&rsquo;s talk &rarr;</a></p>

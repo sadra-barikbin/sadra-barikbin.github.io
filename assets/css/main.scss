@@ -283,6 +283,13 @@ hr.ornament::after {
   line-height: 1.2;
   margin: 0 0 0.15em;
 }
+.reading-now__title-fa {
+  font-family: "Noto Naskh Arabic", "Vazirmatn", Tahoma, serif;
+  font-size: 1.15em;
+  line-height: 1.9;
+  color: $clay;
+  margin: 0.1em 0 0.5em;
+}
 .reading-now__author {
   font-style: italic;
   color: $muted-text-color;
