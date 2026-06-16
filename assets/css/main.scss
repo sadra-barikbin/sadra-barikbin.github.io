@@ -329,3 +329,24 @@ hr.ornament::after {
   .reading-now { flex-direction: column; }
   .reading-now__cover { flex-basis: auto; max-width: 140px; }
 }
+
+// ==========================================================================
+//  6. About portrait
+// ==========================================================================
+.about-portrait {
+  float: right;
+  width: 240px;
+  max-width: 38%;
+  margin: 0.3em 0 1.2em 1.8em;
+  border-radius: 3px;
+  box-shadow: 0 12px 30px rgba($ink, 0.18);
+}
+@media (max-width: 37.5em) {
+  .about-portrait {
+    float: none;
+    display: block;
+    width: 190px;
+    max-width: 60%;
+    margin: 0 auto 1.4em;
+  }
+}

@@ -11,6 +11,8 @@ classes: wide
   prompt for a personal detail to fill in.
 -->
 
+<img class="about-portrait" src="/assets/images/avatar.jpg" alt="Sadra Barikbin" />
+
 I keep this corner of the web for the things that don&rsquo;t belong on a CV.
 
 By trade I work in AI and machine learning, and if you want that side of the story it&rsquo;s

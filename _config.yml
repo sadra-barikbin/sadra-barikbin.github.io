@@ -67,7 +67,7 @@ tag_archive:
 author:
   name             : "Sadra Barikbin"
   bio              : "Keeping the parts that don't fit on a résumé."
-  # avatar         : "/assets/images/avatar.svg"   # uncomment once you add a portrait
+  avatar           : "/assets/images/avatar.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
