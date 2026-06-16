@@ -229,3 +229,103 @@ hr.ornament::after {
   font-family: $sans-serif;
   .page__footer-follow .social-icons a { color: $muted-text-color; }
 }
+
+// ==========================================================================
+//  5. Reading page
+// ==========================================================================
+.reading-invite {
+  max-width: 44rem;
+  font-size: 1.3em;
+  line-height: 1.6;
+  color: $ink;
+  margin: 0.5em 0 1.5em;
+  a {
+    color: $clay;
+    border-bottom: 1px solid rgba($clay, 0.4);
+    text-decoration: none;
+  }
+}
+
+.reading-now {
+  display: flex;
+  gap: 1.8rem;
+  align-items: flex-start;
+  max-width: 44rem;
+  margin: 0 0 2.5em;
+  padding: 1.6rem;
+  background: #fffdf9;
+  border: 1px solid $border-color;
+  border-radius: 3px;
+  box-shadow: 0 8px 24px rgba($ink, 0.06);
+}
+.reading-now__cover {
+  flex: 0 0 160px;
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+    box-shadow: 0 6px 16px rgba($ink, 0.18);
+  }
+}
+.reading-now__body { flex: 1 1 auto; }
+.reading-now__label {
+  font-family: $sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  font-size: 0.7em;
+  color: $clay;
+  margin: 0 0 0.4em;
+}
+.reading-now__title {
+  font-family: $serif-display;
+  font-weight: 700;
+  font-size: 1.6em;
+  line-height: 1.2;
+  margin: 0 0 0.15em;
+}
+.reading-now__title-fa {
+  font-family: "Noto Naskh Arabic", "Vazirmatn", Tahoma, serif;
+  font-size: 1.15em;
+  line-height: 1.9;
+  color: $clay;
+  margin: 0.1em 0 0.5em;
+}
+.reading-now__author {
+  font-style: italic;
+  color: $muted-text-color;
+  margin: 0 0 0.8em;
+}
+.reading-now__note {
+  line-height: 1.7;
+  margin: 0 0 1em;
+}
+.reading-now__cta a {
+  font-family: $sans-serif;
+  letter-spacing: 0.03em;
+  color: $clay;
+  text-decoration: none;
+  border-bottom: 1px solid rgba($clay, 0.4);
+}
+
+.reading-shelf__title {
+  font-family: $serif-display;
+  font-size: 1.4em;
+  margin: 1.5em 0 0.6em;
+}
+.reading-shelf {
+  max-width: 44rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  li {
+    padding: 0.5em 0;
+    border-bottom: 1px solid $border-color;
+  }
+  .reading-shelf__book { font-weight: 600; }
+  .reading-shelf__author { color: $muted-text-color; font-style: italic; }
+}
+
+@media (max-width: 37.5em) {
+  .reading-now { flex-direction: column; }
+  .reading-now__cover { flex-basis: auto; max-width: 140px; }
+}
