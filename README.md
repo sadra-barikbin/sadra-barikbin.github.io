@@ -53,7 +53,7 @@ tags: [technical]
 **Use your own pictures** — add image files to `assets/images/` and point the
 `teaser:` / `gallery:` paths at them. The included `.svg` files are placeholders.
 
-**Personalise** — search the project for `[brackets]` and `your-handle`, and edit
+**Personalise** — search the project for `[brackets]` and edit
 `_pages/about.md`, `_pages/contact.md`, and the `author:` block in `_config.yml`.
 To show a portrait in the footer/meta, add `assets/images/avatar.svg` (or `.jpg`)
 and uncomment `author.avatar` in `_config.yml`.

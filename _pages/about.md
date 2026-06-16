@@ -14,7 +14,8 @@ classes: wide
 I keep this corner of the web for the things that don&rsquo;t belong on a CV.
 
 By trade I work in [your field], and if you want that side of the story it&rsquo;s
-all on my [LinkedIn](https://www.linkedin.com/in/your-handle/) and in my work.
+all on my [LinkedIn](https://www.linkedin.com/in/sadrodin-barikbin/) and in my
+[CV](/assets/sadra-barikbin-cv.pdf).
 But a person is more than their job, and the parts I find worth writing down are
 usually the other ones: the books that rearranged how I think, the music I keep
 coming back to, the small inherited rituals, the places that made me.

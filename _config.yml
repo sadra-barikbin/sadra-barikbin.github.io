@@ -75,9 +75,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/sadra-barikbin"
-    # - label: "LinkedIn"
-    #   icon: "fab fa-fw fa-linkedin"
-    #   url: "https://www.linkedin.com/in/your-handle/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/sadrodin-barikbin/"
 
 footer:
   links:
@@ -87,9 +87,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/sadra-barikbin"
-    # - label: "LinkedIn"
-    #   icon: "fab fa-fw fa-linkedin"
-    #   url: "https://www.linkedin.com/in/your-handle/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/sadrodin-barikbin/"
 
 # ------------------------------------------------------------------
 #  Front-matter defaults
