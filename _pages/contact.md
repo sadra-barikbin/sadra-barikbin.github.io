@@ -14,7 +14,7 @@ The best way to reach me is by email. I read everything, and I answer most thing
 
 <p class="contact-note">
   For the professional side of things &mdash; the work, the r&eacute;sum&eacute; &mdash;
-  there&rsquo;s my [CV](/assets/sadra-barikbin-cv.pdf) and
-  [LinkedIn](https://www.linkedin.com/in/sadrodin-barikbin/). This site is for
+  there&rsquo;s my <a href="/assets/sadra-barikbin-cv.pdf">CV</a> and
+  <a href="https://www.linkedin.com/in/sadrodin-barikbin/">LinkedIn</a>. This site is for
   everything else.
 </p>
