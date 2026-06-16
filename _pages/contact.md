@@ -7,7 +7,7 @@ classes: wide
 
 The best way to reach me is by email. I read everything, and I answer most things.
 
-- **Email** &mdash; [sadegh.shirazy@gmail.com](mailto:sadegh.shirazy@gmail.com)
+- **Email** &mdash; [sadraqazvin1@yahoo.com](mailto:sadraqazvin1@yahoo.com)
 - **GitHub** &mdash; [@sadra-barikbin](https://github.com/sadra-barikbin)
 - **LinkedIn** &mdash; [in/sadrodin-barikbin](https://www.linkedin.com/in/sadrodin-barikbin/)
 - **CV** &mdash; [download (PDF)](/assets/sadra-barikbin-cv.pdf)
