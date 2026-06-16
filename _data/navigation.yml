@@ -2,6 +2,8 @@
 main:
   - title: "Pieces"
     url: /pieces/
+  - title: "Reading"
+    url: /reading/
   - title: "About"
     url: /about/
   - title: "Contact"

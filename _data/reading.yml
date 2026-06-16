@@ -1,0 +1,17 @@
+# What I'm reading. Update `current` whenever you pick up a new book —
+# the Reading page renders straight from this file.
+current:
+  title: "Replace with your current book"
+  author: "Author Name"
+  cover: /assets/images/book-cover.svg   # swap in a real cover image if you like
+  link: ""                               # optional: a link to the book
+  note: >-
+    A sentence or two on why you picked it up, or a thought it has sparked
+    so far. This is the hook that invites a reply.
+
+# Optional: a short shelf of recent reads. Uncomment and add your own.
+# finished:
+#   - title: "Some Book"
+#     author: "Some Author"
+#   - title: "Another Book"
+#     author: "Another Author"

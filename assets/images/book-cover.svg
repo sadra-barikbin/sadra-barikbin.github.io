@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" width="400" height="600" role="img" aria-label="Abstract book cover">
+  <rect width="400" height="600" fill="#2c4a52"/>
+  <rect width="30" height="600" fill="#21353b"/>
+  <rect x="30" width="6" height="600" fill="#b9893f" opacity="0.55"/>
+  <circle cx="252" cy="208" r="120" fill="#b9893f" opacity="0.9"/>
+  <circle cx="252" cy="208" r="62" fill="#2c4a52"/>
+  <path d="M70 470 h270" stroke="#faf8f3" stroke-width="5" opacity="0.85"/>
+  <path d="M70 500 h200" stroke="#faf8f3" stroke-width="5" opacity="0.5"/>
+  <path d="M70 540 h120" stroke="#b9893f" stroke-width="6" opacity="0.95"/>
+</svg>
