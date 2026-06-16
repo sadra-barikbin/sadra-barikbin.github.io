@@ -1,16 +1,15 @@
 ---
-title: "Reading"
+title: "On my nightstand"
 permalink: /reading/
 author_profile: false
 classes: wide
 ---
 
 <p class="reading-invite">
-  I&rsquo;m always in the middle of a book &mdash; usually two. This is what&rsquo;s
-  open on my desk right now. If you&rsquo;ve read it, are reading it, or just have
-  opinions about it, I&rsquo;d genuinely love to hear them &mdash;
-  <a href="/contact/">start a conversation</a>. Half the pleasure of a book is
-  arguing about it afterward.
+  I read slowly &mdash; on purpose. I&rsquo;d rather live with a book for a while
+  than rush through it, so what sits here tends to stay a while. Whatever it is,
+  I&rsquo;m always glad to talk about it: if you&rsquo;ve read it, are reading it,
+  or just have opinions, <a href="/contact/">come argue with me</a>.
 </p>
 
 {% assign book = site.data.reading.current %}
@@ -23,8 +22,8 @@ classes: wide
   </div>
   <div class="reading-now__body">
     <p class="reading-now__label">Currently reading</p>
-    <h2 class="reading-now__title">{{ book.title }}</h2>
-    <p class="reading-now__author">{{ book.author }}</p>
+    <h2 class="reading-now__title">{% if book.link and book.link != "" %}<a href="{{ book.link }}">{{ book.title }}</a>{% else %}{{ book.title }}{% endif %}</h2>
+    <p class="reading-now__author">{{ book.author }}{% if book.edition %} <span class="reading-now__edition">&middot; {{ book.edition }}</span>{% endif %}</p>
     {% if book.note %}<p class="reading-now__note">{{ book.note }}</p>{% endif %}
     <p class="reading-now__cta"><a href="/contact/">Read it too? Let&rsquo;s talk &rarr;</a></p>
   </div>

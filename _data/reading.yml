@@ -1,17 +1,18 @@
 # What I'm reading. Update `current` whenever you pick up a new book —
 # the Reading page renders straight from this file.
 current:
-  title: "Replace with your current book"
-  author: "Author Name"
+  title: "The Muslim Discovery of Europe"
+  author: "Bernard Lewis"
+  edition: "Persian translation by Mohammad Ghaed"
   cover: /assets/images/book-cover.svg   # swap in a real cover image if you like
-  link: ""                               # optional: a link to the book
+  link: "https://mghaed.com/muslim_discovery/"
   note: >-
-    A sentence or two on why you picked it up, or a thought it has sparked
-    so far. This is the hook that invites a reply.
+    Lewis turns the familiar story inside out: not Europe discovering the East,
+    but what the medieval Muslim world knew &mdash; and chose to notice &mdash;
+    about Europe. I&rsquo;m taking my time with Mohammad Ghaed&rsquo;s Persian
+    translation. <em>(Replace this with your own take whenever you like.)</em>
 
 # Optional: a short shelf of recent reads. Uncomment and add your own.
 # finished:
 #   - title: "Some Book"
 #     author: "Some Author"
-#   - title: "Another Book"
-#     author: "Another Author"
